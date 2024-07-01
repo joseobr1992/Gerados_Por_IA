@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#novaTarefa {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#tarefaInput {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+#listaTarefas {
+    list-style: none;
+    padding: 0;
+}
+
+#listaTarefas li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+#listaTarefas li.concluida {
+    text-decoration: line-through;
+}
